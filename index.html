@@ -47,6 +47,9 @@
     }
 
     * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+    /* hidden должен побеждать любые display-правила ниже (иначе модальное окно
+       перекрывало весь экран невидимым слоем) */
+    [hidden] { display: none !important; }
     html, body { margin: 0; padding: 0; }
     body {
       font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;

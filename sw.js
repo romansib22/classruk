@@ -2,7 +2,7 @@
  * Service worker: кэширует приложение целиком, работает офлайн.
  * При изменении файлов — поднять номер версии CACHE.
  */
-const CACHE = 'classruk-v1';
+const CACHE = 'classruk-v2';
 const ASSETS = [
   './',
   './index.html',
